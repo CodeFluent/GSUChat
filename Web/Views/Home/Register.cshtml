@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "GSU Chat";
+}
+<h2>@ViewBag.Title</h2>
+<h3>@ViewBag.Message</h3>
+
+    <div>
+        Username:
+        <input id="username" type="text" />
+
+        Chat channel:
+        <input id="channel" type="text" />
+
+    </div>
+
+<input id="joinBtn" type="button" value="Join Channel" onclick="joinChannel()" />
+
+<script>
+
+    function joinChannel()
+    {
+        var username = $('#username').val();
+        var channel = $('#channel').val();
+
+        window.location.href = '/Home/chat/' + username + '/' + channel;
+    }
+
+</script>
