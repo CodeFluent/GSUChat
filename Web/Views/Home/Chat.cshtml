@@ -1,0 +1,34 @@
+﻿@inject IOptions<AppSettings> AppSettings
+@{
+    ViewBag.SiteTitle = "Channel:" + ViewBag.Channel;
+}
+<h2>@ViewBag.SiteTitle - @ViewBag.Channel</h2>
+
+<h3>@ViewBag.Message</h3>
+
+<div>
+    Chat:
+    <input id="content" type="text" />
+</div>
+<input id="sendBtn" type="button" value="Send" onclick="sendChat()" />
+<br />
+<div id="chatDiv" style="overflow:scroll; height:200px;">
+</div>
+
+<input id="user" value="@ViewBag.Username" type="hidden" />
+<input id="channel" value="@ViewBag.Channel" type="hidden" />
+
+<script>
+
+    function sendChat() {
+
+        var content = $('#content').val();
+        var user = $('#user').val();
+
+        $('#chatDiv').append(user + ': ' + content);
+
+    }
+
+
+
+</script>
