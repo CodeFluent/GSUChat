@@ -5,14 +5,15 @@ An experiment with websockets and ASP.NET 5 to create a chat client. Potential u
 
 <br>
 
->GSU Student Development Workshop Participants
->[achaserandall](https://github.com/achaserandall)
->[badjr](https://github.com/badjr)
->[CodeFluent](https://github.com/CodeFluent)
->[ferrerluis](https://github.com/ferrerluis)
->[zbrad](https://github.com/zbrad)
+GSU Student Development Workshop Participants
 
-<br> <!-- break tags offer better spacing in my Markdown editor.  -->
+*[achaserandall](https://github.com/achaserandall)
+*[badjr](https://github.com/badjr)
+*[CodeFluent](https://github.com/CodeFluent)
+*[ferrerluis](https://github.com/ferrerluis)
+*[zbrad](https://github.com/zbrad)
+
+<br>
 
 Main [Web Sockets Demo](https://github.com/zbrad/WebSocketsDemo) Project
 
