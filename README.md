@@ -7,11 +7,15 @@ An experiment with websockets and ASP.NET 5 to create a chat client. Potential u
 
 GSU Student Development Workshop Participants
 
-*[achaserandall](https://github.com/achaserandall)
-*[badjr](https://github.com/badjr)
-*[CodeFluent](https://github.com/CodeFluent)
-*[ferrerluis](https://github.com/ferrerluis)
-*[zbrad](https://github.com/zbrad)
+<ul>
+<li><a href="https://github.com/achaserandall">achaserandall</li>
+<li><a href="https://github.com/badjr">badjr</li>
+<li><a href="https://github.com/CodeFluent">CodeFluent</li>
+<li><a href="https://github.com/ferrerluis">ferrerluis</li>
+<li><a href="https://github.com/zbrad">zbrad</li>
+</ul>
+
+<!--Markdown syntax in StackEdit does not work with Github (> =! * for Markdown purposes)-->
 
 <br>
 
